@@ -35,6 +35,8 @@ Below the article components on the webpage is the data, along with all of the a
 
 ![Data](Results/Data.png)
 
+One thing to note about the filters is that in each filter, there is a placeholder describing what type of data the user will need to input to filter the data.  So even though there are values in each of the filters, the data has not yet been filtered.  The user will need to enter a value into one or more of the input boxes and press "Enter" before the table updates.  With that in mind, the filtering is very simple and very helpful in allowing the user to dig down to the specific data they would like to see.  Follow the example below to see how each of the five filters work.
+
 
 
 ## Summary
