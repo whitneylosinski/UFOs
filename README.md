@@ -37,17 +37,16 @@ Below the article components on the webpage is the data, along with all of the a
 
 One thing to note about the filters is that in each filter, there is a placeholder describing what type of data the user will need to input to filter the data.  So even though there are values in each of the filters, the data has not yet been filtered.  The user will need to enter a value into one or more of the input boxes and press "Enter" before the table updates.  With that in mind, filtering is very simple and very helpful in allowing the user to dig down to the specific data they would like to see.  Follow the example below to see how each of the five filters work.  The filters are not discussed in the listed order on the page but rather in a way that allows for each filter to be used subsequently to drill down to only one data point.
 
-1. The first filter that will be used is the country code filter.  For this filter, the country code must be entered as a two undercase letters.  In this example the code "us" was used to filter only data for the United States, but "ca" would have been another option to filter for only Canadian sightings.  After filtering for "us", the data table doesn't appear to have changed, but a closer sid-by-side comparison shows that a few lines (any that weren't "us" sightings) were removed from the data.
+1. The first filter that was be used is the country code filter.  For this filter, the country code must be entered as two undercase letters.  In this example the code "us" was used to filter only data for the United States, but "ca" would have been another option to filter for only Canadian sightings.  After typing "us" in the input box and pressing "Enter" on the keyboard, the data table doesn't appear to have changed, but a closer sid-by-side comparison shows that a few lines (any that weren't "us" sightings) were removed from the data.
+
+![Filter_Entry](Results/us_filter_entry.png)
 
 <table>
     <tr>
-        <th> Filter Entry </th>
         <th> Unfiltered </th>
-        <th> "us" Filtered </th>
+        <th> Filtered by "us" </th>
     </tr>
     <tr> 
-        <td>
-            <img src="Results/us_filter_entry.png"/>
         <td>
             <img src="Results/All_Filter.png"/>
         </td>
@@ -56,6 +55,14 @@ One thing to note about the filters is that in each filter, there is a placehold
         </td>
     </tr>
 </table>
+
+2. The second filter that was used is the state code filter.  This filter is similar to the country code in that the state code must be entered as two undercase letters.  For this example, "ca" was used to filter the data for only California sightings.  One important thing to note is that this filter is applied in addition to all previous filters that have been applied.  If the user wanted to clear out any previous filters, they would have to delete the entry from the input box for the filter they want to remove, or click on the Navigation Bar at the top of the page to refresh the page.  After typing "ca" in the state code input box and pressing "Enter", the data table updates to include only the UFO sightings in California.
+
+![CA_Filter](Results/CA_Filter.png)
+
+3. The third filter that was applied is the city filter.  To activate this filter, the user must enter the city name in all lowercase letters and then press "Enter".  In this example the data was filtered to the city of "el cajon".  Again, this filter was applied in addition to the previous filters so the data table updated to include only sightings reported in El Cajon, California.
+
+![el_cajon_Filter](Results/el_cajon_Filter.png)
 
 
 
