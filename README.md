@@ -35,7 +35,27 @@ Below the article components on the webpage is the data, along with all of the a
 
 ![Data](Results/Data.png)
 
-One thing to note about the filters is that in each filter, there is a placeholder describing what type of data the user will need to input to filter the data.  So even though there are values in each of the filters, the data has not yet been filtered.  The user will need to enter a value into one or more of the input boxes and press "Enter" before the table updates.  With that in mind, the filtering is very simple and very helpful in allowing the user to dig down to the specific data they would like to see.  Follow the example below to see how each of the five filters work.
+One thing to note about the filters is that in each filter, there is a placeholder describing what type of data the user will need to input to filter the data.  So even though there are values in each of the filters, the data has not yet been filtered.  The user will need to enter a value into one or more of the input boxes and press "Enter" before the table updates.  With that in mind, filtering is very simple and very helpful in allowing the user to dig down to the specific data they would like to see.  Follow the example below to see how each of the five filters work.  The filters are not discussed in the listed order on the page but rather in a way that allows for each filter to be used subsequently to drill down to only one data point.
+
+1. The first filter that will be used is the country code filter.  For this filter, the country code must be entered as a two undercase letters.  In this example the code "us" was used to filter only data for the United States, but "ca" would have been another option to filter for only Canadian sightings.  After filtering for "us", the data table doesn't appear to have changed, but a closer sid-by-side comparison shows that a few lines (any that weren't "us" sightings) were removed from the data.
+
+<table>
+    <tr>
+        <th> Filter Entry </th>
+        <th> Unfiltered </th>
+        <th> "us" Filtered </th>
+    </tr>
+    <tr> 
+        <td>
+            <img src="Results/us_filter_entry.png"/>
+        <td>
+            <img src="Results/All_Filter.png"/>
+        </td>
+        <td> 
+            <img src="Results/US_Filter.png"/>
+        </td>
+    </tr>
+</table>
 
 
 
