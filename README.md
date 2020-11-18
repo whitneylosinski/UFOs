@@ -68,7 +68,7 @@ One thing to note about the filters is that in each filter, there is a placehold
 
 ![date_Filter](Results/date_Filter.png)
 
-5. The last filter that was applied is the shape filter.  This filter must be entered in all lowercase letters.  Any shape can be entered but if the shape entered does not match any of the shapes in the data, the data table will return an empty table.  Also, it is worth noting that the data is somewhat inconsistent when comparing the shape data to the description (Refer to previous photo).  Many sightings have similar descriptions but list different names for the shapes.  Because of this discrepency, the shape filter should be used with caution knowing that it may not return all of the desired data.  For this example, the shape "formation" was entered as the filter and the data returned only sightings from El Cajon, California on 1/1/2010 in the shape of a "formation".
+5. The last filter that was applied is the shape filter.  This filter must be entered in all lowercase letters.  Any shape can be entered but if the shape entered does not match any of the shapes in the data, the data table will return an empty table.  Also, it is worth noting that the data is somewhat inconsistent when comparing the shape data to the description (Refer to previous photo).  Many sightings have similar descriptions but list different names for the shapes.  Because of this discrepency, the shape filter should be used with caution knowing that it may not return all of the desired data.  For this example, the shape "formation" was entered as the filter and the data returned only one sighting from El Cajon, California on 1/1/2010 in the shape of a "formation".
 
 ![Shape_Filter](Results/Shape_Filter.png)
 
